@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 class MonkeyTroubleTest {
     @Test
-    void tests0() {
-        System.out.println("***********Basic tests************");
+    void BasicTests() {
+        System.out.println("*********** Testing monkeyTrouble ************");
         assertTrue(MonkeyTrouble.monkeyTrouble(true, true));
         assertTrue(MonkeyTrouble.monkeyTrouble(false, false));
         assertFalse(MonkeyTrouble.monkeyTrouble(true, false));
