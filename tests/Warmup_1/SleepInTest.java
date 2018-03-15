@@ -6,10 +6,11 @@ import org.junit.jupiter.api.Test;
 public class SleepInTest {
     @Test
     public void BasicTests() {
-        System.out.println("*********** Testing sleepIn ************");
+        System.out.print("Testing sleepIn... ");
         assertTrue(SleepIn.sleepIn(false, false));
         assertFalse(SleepIn.sleepIn(true, false));
         assertTrue(SleepIn.sleepIn(false, true));
         assertTrue(SleepIn.sleepIn(true, true));
+        System.out.println("OK");
     }
 }

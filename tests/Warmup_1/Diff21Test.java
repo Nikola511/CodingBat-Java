@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class Diff21Test {
     @Test
     void BasicTests() {
-        System.out.println("*********** Testing diff21 ************");
+        System.out.print("Testing diff21... ");
         assertEquals(2, Diff21.diff21(19));
         assertEquals(11, Diff21.diff21(10));
         assertEquals(0, Diff21.diff21(21));
@@ -19,5 +19,6 @@ class Diff21Test {
         assertEquals(22, Diff21.diff21(-1));
         assertEquals(23, Diff21.diff21(-2));
         assertEquals(58, Diff21.diff21(50));
+        System.out.println("OK");
     }
 }

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class ParrotTroubleTest {
     @Test
     void parrotTroubleTests() {
-        System.out.println("*********** Testing parrotTrouble ************");
+        System.out.print("Testing parrotTrouble... ");
         assertTrue(ParrotTrouble.parrotTrouble(true, 6));
         assertFalse(ParrotTrouble.parrotTrouble(true, 7));
         assertFalse(ParrotTrouble.parrotTrouble(false, 6));
@@ -17,5 +17,6 @@ class ParrotTroubleTest {
         assertFalse(ParrotTrouble.parrotTrouble(false, 23));
         assertFalse(ParrotTrouble.parrotTrouble(true, 20));
         assertFalse(ParrotTrouble.parrotTrouble(false, 12));
+        System.out.println("OK");
     }
 }
