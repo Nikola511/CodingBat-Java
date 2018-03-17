@@ -1,14 +1,5 @@
 package Warmup_1;
 
-public class Front3 {
-    public static String front3(String str) {
-        if(str.length() <= 3) return str+str+str;
-
-        String s = str.substring(0, 3);
-        return s+s+s;
-    }
-}
-
 /*
 Given a string, we'll say that the front is the first 3 chars of the string.
 If the string length is less than 3, the front is whatever is there.
@@ -18,3 +9,12 @@ front3("Java") → "JavJavJav"
 front3("Chocolate") → "ChoChoCho"
 front3("abc") → "abcabcabc"
 */
+
+public class Front3 {
+    public static String front3(String str) {
+        if(str.length() <= 3) return str+str+str;
+
+        String s = str.substring(0, 3);
+        return s+s+s;
+    }
+}
